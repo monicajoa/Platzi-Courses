@@ -1,6 +1,6 @@
-# Curso Básico de Git - GitHub 💚
+# Curso Básico de Git - GitHub <img width="100px" alt="GitHub-logo" src="https://logos-marcas.com/wp-content/uploads/2020/11/GitHub-Simbolo.png">
 
-[ Curso Básico de Git y Github](https://platzi.com/cursos/git-github/ ' Curso Básico de Git y Github') de [Platzi](https://platzi.com/ 'Platzi') <img width="100px" alt="GitHub-logo" src="https://logos-marcas.com/wp-content/uploads/2020/11/GitHub-Simbolo.png">
+[ Curso Básico de Git y Github](https://platzi.com/cursos/git-github/ ' Curso Básico de Git y Github') de [Platzi](https://platzi.com/ 'Platzi') 💚
 
 | Git                                                                                                                                                                                                                                                                                                                                 | GitHub                                                                                                                                                                                                            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
