@@ -1,4 +1,4 @@
-# Platzi Cursos
+# Platzi
 
 <p align="center">
 <img width="320" alt="platzi-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg">
