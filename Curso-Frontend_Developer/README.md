@@ -1,4 +1,4 @@
-# Curso Básico de Frontend Developer - GitHub
+# Curso Básico de Frontend Developer
 
 [ Curso de Frontend Developer](https://platzi.com/cursos/frontend-developer/ ' Curso de Frontend Developer') de [Platzi](https://platzi.com/ 'Platzi') 💚
 
