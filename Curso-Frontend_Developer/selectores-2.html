@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomía declaración CSS - Selectores Combinadores</title>
+  <style> /* CSS dentro del doc HTML */
+    div p {
+      color: purple;
+    }
+    div > div {
+      background: plum;
+    }
+    .css {
+      background: red;
+    }
+    div + section {
+      background: palevioletred;
+    }
+    div ~ p {
+      color: lime;
+    }
+		div {
+			color: blueviolet;
+		}
+  </style>
+</head>
+<body>
+  <div>
+    <div>
+      <p>Anatomia de una declaración</p>
+      <div class="css">CSS</div>
+    </div>
+  </div>
+  <section>
+		Los selectores definen sobre qué elementos se aplicará un conjunto de reglas CSS
+	</section>
+	<p>Selectores Básicos</p>
+	<p>Selectores Combinadores</p>
+	<div>
+    <ul>Básicos
+			<li>Selector de tipo</li>
+			<li>Selector de clase</li>
+			<li>Selector de id</li>
+			<li>Selector de atributo</li>
+			<li>Selector Universal</li>
+		</ul>
+	</div>
+  <div>
+    <ul>Combinadores
+			<li>Selector Descendiente</li>
+			<li>Selector Hijo Directo</li>
+			<li>Selector Elemento Adyacente</li>
+			<li>Selector General de Hermanos</li>
+		</ul>
+  </div>
+</body>
+</html>
