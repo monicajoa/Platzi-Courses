@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diseño de fotos adaptativo con Flexbox</title>
+	<style>
+		/* Básico */
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		li {
+			height: 40vh;
+			flex-grow: 1;
+			list-style: none;
+		}
+		li:last-child {
+			flex-grow: 10;
+		}
+		img {
+			max-height: 100%;
+			min-width: 100%;
+			object-fit: cover;
+			vertical-align: bottom;
+		}
+
+		/* Advanzado */
+
+		/* Retrato */
+
+		@media (max-aspect-ratio: 1/1) {
+			li {
+				height: 30vh;
+			}
+		}
+
+		/* Imagenes cortas */
+
+		@media (max-height: 480px) {
+			li {
+				height: 80vh;
+			}
+		}
+
+		/* Imagenes mas pequeñas en vertical */
+
+		@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+			ul {
+				flex-direction: row;
+			}
+			li {
+				height: auto;
+				width: 100%;
+			}
+			img {
+				width: 100%;
+				max-height: 75vh;
+				min-width: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<img src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cat" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/9654147/pexels-photo-9654147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ocean" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Galaxia" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Torre" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ciudad" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cafe" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/672451/pexels-photo-672451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Montaña" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1905054/pexels-photo-1905054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sol" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/70365/forest-sunbeams-trees-sunlight-70365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bosque" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Otoño" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/8766268/pexels-photo-8766268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Amg" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1029021/pexels-photo-1029021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="arbol" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/586687/pexels-photo-586687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Italia" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Casa1" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/2416472/pexels-photo-2416472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Casa2" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3754600/pexels-photo-3754600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Textura" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Colors" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dibujo" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/11721377/pexels-photo-11721377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Luna" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/11471250/pexels-photo-11471250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flor" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/580679/pexels-photo-580679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Eclipse" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1918290/pexels-photo-1918290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mexico" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3398105/pexels-photo-3398105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Labios" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Oficina" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/163822/color-umbrella-red-yellow-163822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sombrilla" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Interior" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="abstrato" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3214944/pexels-photo-3214944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Palmera" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3850526/pexels-photo-3850526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Elefante" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1381679/pexels-photo-1381679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Morado" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3599576/pexels-photo-3599576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Amarillo" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/372166/pexels-photo-372166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Conejo" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/3116418/pexels-photo-3116418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Puente" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/11769609/pexels-photo-11769609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mariposa" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1717207/pexels-photo-1717207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Rama" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1459497/pexels-photo-1459497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Arbolito" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/169203/pexels-photo-169203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Altar" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/1819641/pexels-photo-1819641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Playa" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/813011/pexels-photo-813011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Barco" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Avion" loading="lazy">
+		</li>
+		<li>
+			<img src="https://images.pexels.com/photos/11617687/pexels-photo-11617687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Volcan" loading="lazy">
+		</li>
+	</ul>
+</body>
+</html>
