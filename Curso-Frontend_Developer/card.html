@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Contact Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background:#0c192c;
+    }
+
+    /*este es el contenedor de la carta*/
+    .content_card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+    }
+
+    /*esta es la carta*/
+    .card {
+      background-color: white;
+      border: 3px solid aliceblue;
+      border-radius: 30px;
+      padding: 0;
+      width: 30%;
+      min-width: 30%;
+      min-height: 400px;
+      height: 70vh;
+      box-shadow: 2px 8px 22px 0px blue;
+      position: relative;
+    }
+
+    .card:hover {
+      box-shadow: 8px 14px 40px 12px blue ;
+    }
+
+    /*este es el header de carta*/
+    .header_card {
+      width: 100%;
+      height: 25vh;
+    }
+
+    .header_card img {
+      width: 100%;
+      height: 100%;
+      border-radius:22px;
+    }
+
+    /*este es el contenido de la carta*/
+    .info_card {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 60px;
+    }
+    
+    .info_card p h1 {
+      padding: 12px;
+      margin-bottom:12px;
+      font-family: 'Oswald', sans-serif;
+    }
+
+
+    /*esta es la informacion del usuario */
+    .email_card {
+      width: 100%;
+      height: 9vh;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .email_card p {
+      font-size: 20px;
+    }
+    
+    .email_card img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    /* caja de seguidores */
+    .follower_card {
+      background: #0c192c;
+      width: 100%;
+      height: 8vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .follower_card .content_follower {
+      background: #dddd;
+      width: 100%;
+      height: 100%;
+      border: 3px solid #dddddd;
+    }
+
+    .follower_card .content_follower:hover {
+      background: #DBC601;
+    }
+
+    .content_follower p {
+      text-align: center;
+      margin-top: 3px;
+    }
+
+    /*boton de seguir*/
+    .follow {
+      background: #288F14;
+      width: 100%;
+      height: 6vh;
+      border-radius:10px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .follow:hover {
+      background: #73FF57;
+      box-shadow: 1px 11px 10px 1px #288F14;
+    }
+
+    .follow p {
+      color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20px;
+    }
+
+    .follow img {
+      width: 35px;
+      margin-right: 10px;
+    }
+
+    /*imagen del perfil */
+    .profile_image {
+      width: 35%;
+      min-width: 30%;
+      max-width: 38%;
+      border: 4px solid white;
+      border-radius: 60px;
+      position: absolute;
+      bottom: 51%;
+      left: 32%;
+    }
+  </style>
+</head>
+<body>
+  <main class="content_card">
+    <section class="card">
+        <div class="header_card">
+            <img src="https://images.pexels.com/photos/3607542/pexels-photo-3607542.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="imagen de header">
+        </div>
+        <div class="info_card">
+            <h1>Monica Ortiz</h1>
+            <p>FRONTEND DEVELOPER</p>
+        </div>
+        <div class="email_card">
+            <p><img src="https://cdn-icons-png.flaticon.com/512/630/630668.png" alt="icono de colombia">Colombia</p>
+            <p><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="icono de email">Enviar email</p>
+        </div>
+        <div class="follower_card">
+            <div class="content_follower">
+                <p>1</p>
+                <p>Seguidor</p>
+            </div>
+            <div class="content_follower">
+                <p>1</p>
+                <p>Seguidos</p>
+            </div>
+        </div>
+        <div class="follow">
+            <img src="https://cdn-icons-png.flaticon.com/512/1177/1177444.png" alt="icono de colombia">
+            <p>SEGUIR +</p>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZm_v7tSlbD6vW3UhuSTf3IJe4vfFXCKq4w&usqp=CAU" alt="imagen de perfil" class="profile_image">
+    </section>
+  </main>
+</body>
+</html>
