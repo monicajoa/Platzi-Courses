@@ -1,0 +1,22 @@
+/* Estilos por el Elemento o Tag (p) */
+p {
+  color: blueviolet;
+  font-size: 40px;
+}
+
+/* Estilos por la clase */
+.parrafo {
+  color: aqua;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+/* Estilos por el ID */
+#texto {
+  color: chartreuse;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: lighter;
+}
