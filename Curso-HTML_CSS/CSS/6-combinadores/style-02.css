@@ -1,0 +1,8 @@
+div > p {
+  color: mediumseagreen;
+  text-decoration: overline;
+}
+
+div article p {
+  color: blue;
+}
