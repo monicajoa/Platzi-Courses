@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.card-logo, .card-container, .card-name {
+  position: relative;
+  background-image: linear-gradient(140deg, #37E8E6, #E3E6E6, #000);
+  box-shadow: 0px 0px 40px 5px rgba(35, 4, 7, 1);
+}
+
+.card-logo {
+  width: 260px;
+  height: 40px;
+  position: relative;
+  left: -175px;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.logo {
+  position: absolute;
+  top: -7px;
+  left: -45px;
+}
+
+.logo img {
+  width: 85px;
+}
+
+.team-name {
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: end;
+  color: #fff;
+}
+
+.card-container {
+  width: 420px;
+  min-height: 500px;
+}
+
+.img-one {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  z-index: 3;
+}
+
+.img-one img {
+  width: 516px;
+  height: auto;
+  position: relative;
+  top: 240px;
+  left: 24px;
+}
+
+.shirt-number {
+  display: inline-block;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 300px;
+  padding: 10px 0 0 13px;
+  color: greenyellow;
+}
+
+.firm {
+  position: absolute;
+  left: 8px;
+  bottom: 323px;
+}
+
+.firm, .img-firm {
+  width: 129px;
+}
+
+.lh-mobile, .img-lh-mobile {
+  width: 91px;
+}
+
+.car-team, .img-car {
+  width: 240px;
+}
+
+.lh-mobile, .car-team {
+  position: absolute;
+}
+
+.lh-mobile {
+  left: 280px;
+  bottom: 427px;
+}
+
+.car-team {
+  left: 130px;
+  bottom: 50px;
+  z-index: 5;
+}
+
+.card-name {
+  width: 70px;
+  height: 550px;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.name-pilot {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+}
+
+.descriptive-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 45px;
+  background-image: url(./img/fondo.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px -2px 9px 0px rgba(20,2,4,1);
+  z-index: 6;
+}
+
+.descriptive-text p {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
