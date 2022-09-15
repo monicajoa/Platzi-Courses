@@ -1,0 +1,13 @@
+p {
+  font-size: 18px; 
+  /* font-size: 16px;
+  font-size: 50% */
+}
+
+p {
+  background-color: crimson;
+  /* width: 100%; */
+  width: 600px;
+  height: 500px;
+} 
+
