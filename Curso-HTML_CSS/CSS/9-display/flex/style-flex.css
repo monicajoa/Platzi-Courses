@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+}
+
+.box-1 {
+  background-color: aqua;
+}
+
+.box-2 {
+  background-color: blueviolet;
+}
+
+.box-3 {
+  background-color: chartreuse;
+}
+
+.box-4 {
+  background-color: coral;
+}
+
+.box-5 {
+  background-color: crimson;
+}
+
+.box-6 {
+  background-color: gold;
+}
+
