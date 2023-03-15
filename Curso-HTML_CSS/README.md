@@ -2,8 +2,8 @@
 
 [Curso Definitivo de HTML y CSS](https://platzi.com/cursos/html-css/ 'Curso Definitivo de HTML y CSS') de [Platzi](https://platzi.com/ 'Platzi') 💚
 
-| HTML | CSS |
-| -------- | ------- |
+| HTML                                                                                                                                                                                                                                                                                                                                                                | CSS                                                                                                                                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Estructura de los documentos que se visualizan en los navegadores. Es el lenguaje con el que se clasifica o etiqueta cada parte del documento, dejándole saber al navegador qué información va a visualizar. De esa manera, se presentan: Barras de Navegación, Secciones, artículos, listas, títulos de diferentes tamaños, audios, videos, imágenes, entre otros. | Es el lenguaje con el que se da estilos a todo el contenido previamente etiquetado con HTML. Es el encargado o usado para darle todo el aspecto visual, usando estándares de diseño de documentos y logrando así la correcta visualización de textos y recursos audiovisuales en las páginas web. |
 
 ## Temas en este curso
