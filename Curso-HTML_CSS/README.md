@@ -16,6 +16,7 @@
 - Accesibilidad.
 - Crear Sitios Web estáticos con HTML y CSS3.
 - Aplicación de estilos usando CSS3.
+- Desarrollo de un clon de Google con HTML y CSS3.
 
-<img width="30px" alt="horas" src="https://cdn-icons-png.flaticon.com/512/7570/7570864.png"> 7 Horas de contenido <br>
-<img width="30px" alt="horas" src="https://cdn-icons-png.flaticon.com/512/563/563777.png"> 16 Horas de práctica
+<img width="30px" alt="horas" src="https://cdn-icons-png.flaticon.com/512/7570/7570864.png"> 9 Horas de contenido <br>
+<img width="30px" alt="horas" src="https://cdn-icons-png.flaticon.com/512/563/563777.png"> 30 Horas de práctica
