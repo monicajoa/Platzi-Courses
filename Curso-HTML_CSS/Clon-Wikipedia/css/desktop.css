@@ -1,0 +1,104 @@
+footer {
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 4.16rem 1.28rem 1.28rem;
+  flex-direction: column;
+}
+
+.footer-sidebar {
+  width: 35%;
+  float: left;
+  clear: left;
+  margin-bottom: 32px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.footer-sidebar__container {
+  position: relative;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-sidebar__logo {
+  position: absolute;
+  top: 0;
+  left: 0.8rem;
+}
+
+.footer-sidebar__content {
+  position: relative;
+  margin: 0;
+  padding-left: 6rem;
+  padding-right: 2rem;
+}
+
+.footer-sidebar__anchor {
+  position: relative;
+  margin: 0;
+  padding-left: 6rem;
+  padding-right: 2rem;
+  text-align: none;
+}
+
+.footer-other-projects {
+  width: 65%;
+  float: right;
+  padding-left: 1%;
+  order: 1;
+  position: absolute;
+  right: 0;
+  margin: 0;
+}
+
+.footer-sidebar__logo {
+  float: left;
+}
+
+.footer-app-badges {
+  width: 35%;
+  float: left;
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+.footer-app-badges__content {
+  position: relative;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.footer-app-badges__header {
+  position: relative;
+  margin: 0;
+  padding: 0.8rem 2rem 0 6rem;
+  text-align: left;
+}
+
+.footer-app-badges__logo {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 0.8rem;
+}
+
+.footer-app-badges__title {
+  display: block;
+  padding: 0;
+}
+
+.footer-app-badges__text {
+  position: relative;
+  margin: 1.3rem 0;
+  padding: 0 2rem 0 6rem;
+  text-align: left;
+}
+
+.footer-app-badges__icons {
+  position: relative;
+  margin: 0;
+  padding: 0 2rem 0.8rem 6rem;
+  justify-content: flex-start;
+}
