@@ -4,7 +4,7 @@
 
 ---
 
-Este curso tarta todo lo necesario para crear proyectos que se puedan adaptar a las distintas vistas que utilizan los usuarios.
+Este curso trata todo lo necesario para crear proyectos que se puedan adaptar a las distintas vistas que utilizan los usuarios.
 
 ## Objetivos del Curso
 
